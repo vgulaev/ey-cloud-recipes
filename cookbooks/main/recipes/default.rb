@@ -198,3 +198,7 @@
 
 #uncomment to include the classiclink recipe
 #include_recipe "classiclink"
+
+# DEBUG=true ey-core recipes upload --account=EY-Dedicated-Internal --environment=test_stack_4
+# Valentin.gulyaev@aurea.com28
+include_recipe "node_8_9_4"
