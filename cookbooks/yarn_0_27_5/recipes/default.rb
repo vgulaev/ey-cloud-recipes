@@ -23,6 +23,7 @@ cookbook_file ebuild_file do
 end
 
 execute "build manifest" do
+  cwd "#{root_path}"
   command "ebuild yarn-0.27.5.ebuild manifest"
 end
 
