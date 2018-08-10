@@ -200,5 +200,10 @@
 #include_recipe "classiclink"
 
 # DEBUG=true ey-core recipes upload --account=EY-Dedicated-Internal --environment=test_stack_4
+# ey recipes upload -e test_stack_4
+# ey recipes apply -e test_stack_4
 # Valentin.gulyaev@aurea.com28
-include_recipe "node_8_9_4"
+
+# include_recipe "node_8_9_4"
+
+include_recipe "yarn_0_27_5"
